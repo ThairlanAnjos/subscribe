@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  background-color: rgb(139, 139, 139);
+}
+
+h1 {
+  font-size: 55px;
+  color: #8c51ff;
+  text-align: center;
+  padding-top: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+}
+
+.content {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  width: 900px;
+  min-width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.inner_content {
+  width: 100%;
+  min-width: 400px;
+  height: 350px;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
+
+  transition: all 0.5s ease-out;
+}
+
+.inner_content:hover {
+  box-shadow: 0px 12px 25px -7px #6b6b6b27;
+  transition: all 0.5s ease-out;
+}
+
+.bnt_subscribe {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  transition: all 0.5s ease-out;
+  background-color: #8b51ff;
+  border-radius: 3px;
+  margin: auto;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  letter-spacing: 0.9px;
+  text-align: center;
+}
+.bnt_subscribe:hover {
+  transition: all 0.5s ease-out;
+  background-color: #6f38de;
+  box-shadow: 0px 12px 50px -7px #8b51ff;
+}
+.bnt_subscribe:active {
+  position: relative;
+  top: 1px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 35px;
+    color: #8c51ff;
+    text-align: center;
+    padding-top: 28px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  p {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0px;
+  }
+
+  .content {
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+    width: 200px;
+    padding: 0px;
+  }
+
+  .inner_content {
+    width: 90%;
+    height: 295px;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+  }
+
+  .inner_content:hover {
+    box-shadow: 0px 12px 25px -7px #6b6b6b27;
+    border-radius: 3px;
+    transition: all 0.5s ease-out;
+  }
+
+  .bnt_subscribe {
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    transition: all 0.5s ease-out;
+    background-color: #8b51ff;
+    border-radius: 3px;
+    margin: auto;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .bnt_subscribe:hover {
+    transition: all 0.5s ease-out;
+    background-color: #6f38de;
+    box-shadow: 0px 12px 50px -7px #8b51ff;
+  }
+  .bnt_subscribe:active {
+    position: relative;
+    top: 1px;
+  }
+}
